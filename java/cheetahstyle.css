@@ -1,0 +1,405 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  #top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  #logo {
+    margin: 0;
+    width: 200px;
+    height: 60px;
+  }
+  
+  #search-form {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 30%;
+    background-color: rgba(0, 0%, 0%, 0.899);
+  }
+  
+  #search-form input[type="text"] {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    width: 300px;
+  }
+  
+  #search-form button[type="submit"] {
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  #search-form button[type="submit"]:hover {
+    background-color: #a32c2c;
+    color: #0b0b0b;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    
+    letter-spacing: 4px;
+      
+  background: #a32c2c;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #a32c2c,
+              0 0 25px #a32c2c,
+              0 0 50px #a32c2c,
+              0 0 100px #a32c2c,
+  }
+  
+  #menu {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #menu-container a{
+    text-decoration: none;
+    color: #eee;
+    transition: color 1s, background-color 1s;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 10px 20px;
+ 
+  }
+  #menu-container a:hover{
+    color: #50E3C2;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+      
+  background: #50E3C2;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #50E3C2,
+              0 0 25px #50E3C2,
+              0 0 50px #50E3C2,
+              0 0 100px #50E3C2;
+  }
+ 
+  
+  #main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #main-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px;
+    margin-right: 100px;
+  }
+  
+  #main-nav li a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s, background-color 1s;
+  }
+  
+  #main-nav li a:hover {
+    background-color: #a32c2c;
+    color: #000000;
+    
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #a32c2c,
+              0 0 25px #a32c2c,
+              0 0 50px #a32c2c,
+              0 0 100px #a32c2c;
+  }
+  #main-nav a {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .navbar-collapse {
+    transition: all 0.5s;
+  }
+  #slider{
+    background-color: rgba(0, 0, 0, 0.85);
+    
+  }
+
+  #banner{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+  }
+
+  #img1{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    
+  }
+
+ #img2{
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  margin: 20px;
+
+ }
+
+ #img3{
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  margin: 40px;
+ }
+
+
+#whyus{
+  background-color: #333;
+}
+#whyus::before {
+  font-family: 'Almendra', serif;
+}
+#whyus::before {
+  font-family: 'Almendra', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+ #vdi1{
+  
+  width: 100%;
+  height: 20%;
+}
+
+#textoverlay{
+  display: inline-block;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+
+}
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.841);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 15px;
+  margin: auto;
+  padding: auto;
+
+}
+.pricing-table{
+ box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.885);
+ text-align: center;
+ padding: 30px 0px;
+ border-radius: 5px;
+ position: relative;
+
+}
+.pricing-table .head {
+  border-bottom:1px solid rgb(255, 255, 255);
+  padding-bottom: 50px;
+  transition: all 0.5s ease;
+}
+.pricing-table:hover .head{
+ border-bottom:1px solid #020da4;
+ 
+}
+
+.pricing-table .head .title{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pricing-table .content .price{
+  background:linear-gradient(to right, #000000 0%, #000000dd 100%);
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  line-height: 90px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-top: -50px;
+   transition: all 0.5s ease;
+}
+.pricing-table:hover .content .price{
+  transform: scale(1.2);
+
+}
+.pricing-table .content .price h1{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+.pricing-table .content ul{
+ list-style-type: none;
+ margin-bottom: 20px;
+ padding-top: 10px;
+}
+
+.pricing-table .content ul li{
+  margin: 20px 0px;
+  font-size: 14px;
+  color:rgb(255, 253, 253);
+}
+
+.pricing-table .content .sign-up{
+  background:linear-gradient(to right, #000000 0%, #4A00E0 100%);
+  border-radius: 40px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+}
+
+
+.pricing-table .btn {
+color: #fff;
+padding: 14px 40px;
+display: inline-block;
+text-align: center;
+font-weight: 600;
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3 linear;
+transition: all 0.3 linear;
+border: none;
+font-size: 14px;
+text-transform: capitalize;
+position: relative;
+text-decoration: none;
+  margin: 2px;
+  z-index: 9999;
+  text-decoration: none;
+  border-radius:50px;
+
+}
+
+.pricing-table .btn:hover{
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-table .btn.bordered {
+z-index: 50;
+color: #333;
+}
+.pricing-table:hover .btn.bordered{
+color:#fff !important;
+}
+
+.pricing-table .btn.bordered:after {
+background: #fff none repeat scroll 0 0;
+border-radius: 50px;
+content: "";
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3 linear;
+transition: all 0.3 linear;
+width: 100%;
+z-index: -1;	
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+transform:scale(1);
+}
+.pricing-table:hover .btn.bordered:after{
+opacity:0;
+transform:scale(0);
+}
+
+@media screen and (max-width:768px){
+ .wrapper{
+      grid-template-columns: repeat(2,1fr);
+  } 
+}
+
+@media screen and (max-width:600px){
+ .wrapper{
+      grid-template-columns: 1fr;
+  } 
+}
+
+#manu{
+  height: 392.5px;
+}
+#sponsor .text-overlay {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-style: italic;
+  
+}
+
+  
+  footer{
+    background-color: rgba(0, 0, 0, 0.881);
+  }
+#contact{
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#footerbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  #footerbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px;
+    margin-right: 100px;
+  }
+   #footerbar li a{
+    color:#eee;
+    text-decoration: none;
+   }
+
+   #footerbar li a:hover{
+    color:#eee;
+    background-color: #a32c2c;
+    text-decoration: none;
+   }
+ 
+   #footerbar p{
+    color: #fff;
+    margin-top: 48px;
+   }
